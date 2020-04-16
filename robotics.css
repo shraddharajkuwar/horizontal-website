@@ -213,7 +213,7 @@ body{
     top: -25px;  
 }
 .banner3{
-    background-image: url('images/banner_3.jpg');
+    background-image: url('images/banner3.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -494,7 +494,7 @@ body{
         left: 10px !important;
      }
      .banner3 ul{
-        padding: 250px 15px 15px 60px;
+        padding: 300px 15px 15px 60px;
      }
      .banner3 ul li{
          margin-bottom: 0px;
@@ -529,6 +529,7 @@ body{
     .banner4 .container-fluid{
         overflow-y: auto;
         height: 100%;
+        overflow-x: hidden;
     }
     .banner4 .row .col-sm-4{
         padding: 0px;
