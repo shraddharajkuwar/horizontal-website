@@ -7,6 +7,7 @@ body{
 }
 .carousel-item{
     width: 100%;    
+    float: unset;
 }
 .height100{
     height:100%;
@@ -210,7 +211,8 @@ body{
     text-transform: uppercase;
     font-weight: 800;
     right: -25px;
-    top: -25px;  
+    top: 50%;  
+    transform: translateY(-50%);
 }
 .banner3{
     background-image: url('images/banner3.jpg');
@@ -257,10 +259,7 @@ body{
   .banner4 .container-fluid{
       margin-top: 65px;
   }
-  .banner4{
-    height: 100vh;
-    overflow-y: auto;
-  }
+    
   .banner4 .row{
     padding: 30px 15px 0px 80px!important;
   }
