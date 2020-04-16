@@ -307,7 +307,7 @@ body{
       display: flex;
       flex-direction: column;    
       justify-content:center;
-      padding: 50px;
+      padding: 130px;
   }
   .form-row-right{
       display: flex;
